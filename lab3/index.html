@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>lab3</title>
+</head>
+<body>
+    
+    <table border="1px solid black">
+        <form>
+            <tr>
+                <td colspan="2">
+                    <div class="titlePizza">
+                        <h1>Pizza Shop 2.0</h1>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><h2 class="title">Name</h2></td>
+                <td><input type="text" required="true" width="100px"></td>
+            </tr>
+            <tr>
+                <td><h2 class="title">Pizza Topping</h2></td>
+                <td>
+                    <div class="" style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row;"><input name="sauce" id="supr" type="radio">
+                        <label for="supr">Supreme</label></div>
+                        <div style="display: flex; flex-direction: row;"><input name="sauce" id="veg" type="radio">
+                        <label for="veg">Vegetarian</label></div>
+                        <div style="display: flex; flex-direction: row;"><input name="sauce" id="haw" type="radio">
+                        <label for="haw">Hawaiian</label></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Pizza Sauce</h2></td>
+                <td>
+                    <select name="sauce" >
+                    <option value="1">Tomato</option>
+                    <option value="2">Onion</option>
+                    <option value="3">Vege</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Optional extras</h2>
+                </td>
+                <td>
+                    <input type="checkbox" name="cheese" id="extra">
+                    <label for="extra">Extra Cheese</label>
+                    <input type="checkbox" name="cheese" id="freegl">
+                    <label for="freegl">Gluten Free Base</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="texteare">Delivery instruction: </label>
+                    <div class="">
+                        <textarea class="textafiojeijnfe2njicn"
+                        cols="55" rows="5"
+                        name="arer" id="texteare">
+                        </textarea>
+                        
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Send my Order</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
